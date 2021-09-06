@@ -1,6 +1,21 @@
 
-  <div>
-    <span>{{ title }} app is running!</span> 
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home"class="active">Home</a>  
+    <a href="/employeelists" >Employee</a>
+    <a href="/departments">Department</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>  
+   <i class="fa fa-bars"></i>   
   </div>
 
- <app-employee>  {{ title }} app is running!  </app-employee>
+  <div>
+     <span>{{ title }} app is running!</span> 
+  </div>
+ 
+  <app-employee>  {{ title }} app is running!  </app-employee>
+
+
+
+
+ <router-outlet></router-outlet> 
